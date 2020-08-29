@@ -1,0 +1,34 @@
+> 이것을 안다면 역사적인 순간이 될 것이다.
+
+알바 가기전 TIL 실천, 비록 토요일이지만 생각나서 하게됐다.
+
+# 지도학습
+
+**과거의 데이터 준비**
+
+**모델의 구조 만들기**
+
+**데이터로 모델 학습(Fit)한다.**
+
+**모델을 이용한다.**
+
+## 과거의 데이터 준비
+
+과거의 데이터에서는 `원인`과 `결과`를 알아야 한다.
+
+원인 = 독립변수 
+
+결과 = 종속변수
+
+- 독립변수: 함수 관계에서, 다른 변수의 변화와는 관계없이 독립적으로 변화할 수 있는 변수.
+- 종속변수: 두 변수 중 한 변수의 값이 결정되는 데 따라 그 값이 결정되는 다른 변수.
+
+## 데이터로 모델 학습(Fit)
+
+데이터를 모델에 Fitting한다. = 학습한다.
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9176e2ee-541a-457b-889f-4a54429950c7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9176e2ee-541a-457b-889f-4a54429950c7/Untitled.png)
+
+출처: [https://opentutorials.org/module/4966/28967](https://opentutorials.org/module/4966/28967)
+
+**지도 학습의 4가지를 반드시 익혀야 한다.**
