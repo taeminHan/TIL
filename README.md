@@ -7,4 +7,5 @@ Today I Learn
 3. 그때그때 배운 내용은 아이패드나 노트에 적는 습관 가지기
 
 
+#원본 문서는 여기
 https://www.notion.so/kylereport/Kyle-s-Report-ef5b2e3d885c463abb79453b868b3033
