@@ -1,5 +1,5 @@
-string = input().split("-")
-result = []
-for i in string:
-    result.append(str(i)[0])
-print(''.join(result))
+string_Group = input().split("-")
+resultCount = []
+for i in string_Group:
+    resultCount.append(i[0])
+print(''.join(resultCount))
