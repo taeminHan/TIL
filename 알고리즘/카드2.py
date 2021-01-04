@@ -17,8 +17,8 @@ while len(group) > 1:
 
 print(group[0])
 
+
 """
-원본
 num = int(input())
 group = []
 for i in range(num):
