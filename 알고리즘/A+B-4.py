@@ -1,9 +1,12 @@
-group = []
-try:
-    while True:
-        a, b = input().split()
-        group.append(int(a)+int(b))
+a = int(input())
+b = a
+count = 0
 
-except:
-    for i in group:
-        print(i)
+while True:
+    if b == a % 10 * 10 + (a // 10 + a % 10) % 10:
+        count = count + 1
+        print(count)
+        break
+    else:
+        a = a % 10 * 10 + (a // 10 + a % 10) % 10
+        count = count + 1
