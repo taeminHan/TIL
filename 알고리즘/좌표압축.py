@@ -8,8 +8,6 @@ sort_group = {sort_group[i]: i for i in range(len(sort_group))}
 print(*[sort_group[i] for i in raw_group])  # 애스터리스크 언패킹 이용
 
 
-
-
 """import sys
 
 count = int(sys.stdin.readline())
