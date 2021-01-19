@@ -19,3 +19,6 @@ def dfs(start, graph, check):
             dfs(i, graph, check)
 
 dfs(1, graph, check)
+
+for i in check[2:]:
+    print(i)
