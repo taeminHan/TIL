@@ -11,7 +11,7 @@ def bfs(i, j):
     check[i][j] = True
     while q:
         x, y = q.popleft()
-        for dx, dy in (-1,0), (1,0), (0,-1), (0,1):
+        for dx, dy in (-1, 0), (1, 0), (0, -1), (0, 1):
             nx, ny = x+dx, y+dy
             if nx < 0 or nx >= n or ny < 0 or ny >= m:
                 continue
