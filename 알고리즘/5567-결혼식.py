@@ -14,6 +14,7 @@ def bfs(start, graph, visited):
     visited[start] = True
     queue = deque([start])
     cut_line = len(graph[1])
+
     while cut_line >= cnt:
         sub_node = queue.popleft()
         for k in graph[sub_node]:
