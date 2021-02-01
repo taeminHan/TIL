@@ -24,7 +24,6 @@ def center(node):
         center(graph[node.right])
 
 
-
 def back(node):
     if node.left is not None:
         back(graph[node.left])
@@ -42,6 +41,7 @@ for _ in range(int(sys.stdin.readline().rstrip())):
     if c == '.':
         c = None
     graph[a] = Node(a, b, c)
+
 
 front(graph['A'])
 print()
