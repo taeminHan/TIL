@@ -8,7 +8,7 @@ for _ in range(int(sys.stdin.readline().rstrip())):
     for i in VPS:
         stack.append(i)
         try:
-            if stack[-1] == ')' and stack[-2] == '(':
+            if stack[-2] == '(' and stack[-1] == ')':
                 stack.pop()
                 stack.pop()
         except IndexError:
