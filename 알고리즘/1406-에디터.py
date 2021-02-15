@@ -14,7 +14,7 @@ for _ in range(int(sys.stdin.readline().rstrip())):
             continue
     elif order[0] == 'D':
         try:
-            word_stack.append(sec_stack.pop())
+            word_stack.append(sec_stack.popleft())
         except IndexError:
             continue
     elif order[0] == 'B':
