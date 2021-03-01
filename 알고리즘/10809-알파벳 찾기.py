@@ -1,6 +1,8 @@
 from string import ascii_lowercase
+
 word = list(ascii_lowercase)
 q = list(input())
+
 result = []
 
 for i in word:
