@@ -15,5 +15,9 @@ for i in range(m, n):
     if i > 1 and answer[i] is True:
         asd.append(i)
 
-print(sum(asd))
-print(asd[0])
+
+if asd:
+    print(sum(asd))
+    print(asd[0])
+else:
+    print(-1)
