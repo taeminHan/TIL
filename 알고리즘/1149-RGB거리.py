@@ -1,12 +1,21 @@
 import sys
 
 n = int(sys.stdin.readline().rstrip())
-group = list()
-
-min_count = 0
+matrix = list()
 
 for _ in range(n):
-    group.append(sys.stdin.readline().rstrip().split())
+    matrix.append(list(map(int, sys.stdin.readline().rstrip().split())))
 
-for i in range(1, n):
-    a = group[i-1] + group[i][0] + group[i][2]
+
+matrix2 = [[0] * 3 for i in range(n)]
+
+
+for i in range(n):
+    if i == 0:
+        matrix2[i] = matrix[i]
+    else:
+        matrix2[i][0] = matrix[i][0] + min(matrix2[i - 1][1], matrix2[i - 1][2])
+        matrix2[i][1] = matrix[i][1] + min(matrix2[i - 1][0], matrix2[i - 1][2])
+        matrix2[i][2] = matrix[i][2] + min(matrix2[i - 1][0], matrix2[i - 1][1])
+
+print(min(matrix2[-1]))
