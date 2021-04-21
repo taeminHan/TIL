@@ -8,4 +8,4 @@ for i in range(int(sys.stdin.readline().rstrip())):
     max_position = imp.index(max_imp)
 
     for j in range(max_position):
-        if imp[0]
+        if imp[0]:
